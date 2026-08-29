@@ -16,7 +16,7 @@ DEVICE="cuda" if torch.cuda.is_available() else "cpu"
 TRAIN_FRACTION=0.9
 LR=1e-3
 EVAL_ITERS=100
-STEPS=100
+STEPS=10000
 MAX_NEW_TOKENS=200
 
 text_path=Path(__file__).with_name("input.txt")
